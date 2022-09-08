@@ -1,23 +1,20 @@
-#include <unistd.h>
-
+#include <stdio.h>
 /**
- *
- * * main - Prints a text
- *
- * *
- *
- * * Return: Always 1 (Success)
- *
- * */
-
+* main - Prints the sizeof many var types
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
-
 {
-
-	write(2, "and that piece of art is useful\" - Dora Korpar,
-
-			2015-10-19\n", 59);
-
-	return (1);
-
+char a;
+int b;
+long int c;
+long long int d;
+float e;
+printf("Size of a char: %d byte(s)\n", sizeof(a));
+printf("Size of an int: %d byte(s)\n", sizeof(b));
+printf("Size of a long int: %d byte(s)\n", sizeof(c));
+printf("Size of a long long int: %d byte(s)\n", sizeof(d));
+printf("Size of a float: %d byte(s)\n", sizeof(e));
+return (0);
 }
