@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /** 
- *main - Prints the sizeof many var types
+ *main - Entry point
  *
  *Return: Always 0 (Success)
  */
