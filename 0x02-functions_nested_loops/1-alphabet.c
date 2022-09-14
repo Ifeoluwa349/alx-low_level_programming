@@ -1,6 +1,4 @@
 #include "main.h"
-#include <unistd.h>
-#include <stdio.h>
 /**
  * print_alphabet - function to print abc
  * Return: 0
