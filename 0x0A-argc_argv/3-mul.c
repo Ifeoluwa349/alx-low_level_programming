@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - prints multiplication
+ *main - prints multiplication
  *of two numbers
  *@argc: number of arguments
  *@argv: array of arguments
@@ -19,7 +19,7 @@ return (1);
 }
 i = atoi(argv[1]);
 j = atoi(argv[2]);
-mul = i * j;
+mul = i *j;
 printf("%d\n", mul);
 return (0);
 }
